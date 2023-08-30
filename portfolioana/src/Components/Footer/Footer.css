@@ -1,0 +1,39 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 3rem;
+
+}
+
+.msj{
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje{
+    border: solid 1px #0057ff;
+    border-radius: 0.5rem; 
+    width: 40vw;
+    height: 25vh;
+    resize: none;
+}
+::placeholder{
+    color:  #0057ff;
+}
+
+
+.enviar{
+    margin-top: 1rem;
+    border-radius: 3rem; 
+    border: none;
+    color: white;
+    background-color: #0057ff;
+    padding: 0.6rem;
+}
+
+.enviar:hover{
+    background-color: #353535;
+}
